@@ -1,0 +1,14 @@
+.videogames {
+  background-color: #1c063f;
+  height: 800px;
+
+  .all-videogames {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+
+    img {
+      width: 350px;
+    }
+  }
+}

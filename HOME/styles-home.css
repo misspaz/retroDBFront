@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  border-style: none;
+}
+
+@font-face {
+  font-family: "Upheaval";
+  src: url("../../FONT/upheavtt.ttf");
+}
+header {
+  background-color: #1c063f;
+}
+
+.gifs {
+  display: flex;
+  justify-content: center;
+}
+.gifs img {
+  height: 200px;
+}
+
+.logo {
+  height: 120px;
+  display: flex;
+}
+
+.div-search {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search {
+  width: 300px;
+  padding-right: 30px;
+  height: 30px;
+  font-family: "Upheaval";
+  margin-right: 30px;
+}
+
+.videogames {
+  background-color: #1c063f;
+  height: 800px;
+}
+.videogames .all-videogames {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.videogames .all-videogames img {
+  width: 350px;
+}/*# sourceMappingURL=styles-home.css.map */
