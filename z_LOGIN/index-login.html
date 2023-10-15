@@ -10,7 +10,7 @@
     <title>CBM Retro Shop</title>
   </head>
   <body>
-    <section class="user-login">
+    <form action="http://localhost:5000/user/login" method="POST" class="user-login">
       <div class="logo">
         <img src="./assets/CBM_Logo-05.png" alt="Logo de CBM Retro Shop" />
       </div>
@@ -27,13 +27,13 @@
                 id="password"
                 name="password"
                 type="password"
-                pattern="[a-z0-5]{8,}"
+                pattern="[A-Za-z\d$@$!%*?&]{8,15}"
                 required
             /></label>
-            <button>Log in</button>
+            <button type="submit">Log in</button>
           </div>
         </div>
       </div>
-    </section>
+    </form>
   </body>
 </html>
