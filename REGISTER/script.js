@@ -32,7 +32,7 @@ document.querySelector("form").addEventListener("submit",async(event)=>{
   const formData = new FormData(event.target);
   const formDataObject = {};
 
-formData.forEach((value,key)=>{ formDataObject[key]=value})
+formData.forEach((value,key)=>{ formDataObject[key]=value});
   
   try {
    await localpostFetch(formDataObject)
@@ -41,7 +41,7 @@ formData.forEach((value,key)=>{ formDataObject[key]=value})
   }
 })}
 const init =async()=>{
-
+  localgetFetch()
 botonSubmit();
 }
 init();
