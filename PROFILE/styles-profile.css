@@ -28,7 +28,29 @@ header .logo {
 }
 .profile-bg .profile-box {
   height: 80%;
-  width: 70%;
+  width: 40%;
   display: flex;
   justify-content: center;
+}
+
+.profile-box {
+  background-image: url("../../PROFILE/assets/PROFILE_2.png");
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: contain;
+  -o-object-fit: cover;
+  object-fit: cover;
+  height: 90%;
+}
+
+.profile-info {
+  font-family: "Upheaval";
+  color: black;
+  position: absolute;
+  top: 240px;
+  left: 300px;
+}
+
+.name-profile {
+  font-size: 35px;
 }/*# sourceMappingURL=styles-profile.css.map */

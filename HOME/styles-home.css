@@ -45,7 +45,10 @@ header {
 
 .videogames {
   background-color: #1c063f;
-  height: 800px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .videogames .all-videogames {
   display: flex;
@@ -54,4 +57,33 @@ header {
 }
 .videogames .all-videogames img {
   width: 350px;
+}
+
+.videogame-bg {
+  background-image: url("../../HOME/assets/BG_Cartucho-03-01.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  -o-object-fit: cover;
+  object-fit: cover;
+  height: 400px;
+  width: 400px;
+  position: relative;
+}
+
+.info-games {
+  width: 150px;
+  font-family: "Upheaval";
+  color: white;
+  margin-left: 80px;
+}
+
+.game-title {
+  margin-top: 70px;
+}
+
+.game-image {
+  height: 100px;
+  position: absolute;
+  left: 230px;
+  top: 127px;
 }/*# sourceMappingURL=styles-home.css.map */

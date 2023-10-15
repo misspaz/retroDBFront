@@ -8,6 +8,10 @@ try {
     const result = await response.json()
     
     if(response.ok){
+      const data = await response.json();
+      const token = data.token;
+
+      localStorage.setItem('token', token);
       console.log("datos enviados con exito")
     }else{
       console.error("error al enviar los datos")
